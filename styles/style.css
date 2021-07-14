@@ -92,7 +92,7 @@ tr, td{
     border: 2px solid black;
     padding: 10px;
 }
-table, h2{
+.colum h2{
     color: tomato;
 }
 
@@ -132,4 +132,25 @@ footer{
     font-size: 18px;
     line-height: 24px;
 }
-/* tha end  */
+/* media Queries  */
+
+/*-----------------
+ Mobile Divaice 
+------------------ */
+@media only screen and (max-width:688px) {
+.first-continar{
+    width: 100%;
+
+}
+.players, .article{
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.players, .article{
+    flex-direction: column;
+}
+   
+}
+/*--------------
+    tha end 
+-------------- */
