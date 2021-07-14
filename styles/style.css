@@ -70,9 +70,66 @@ grid-row-gap: 27px;
     width: 300px;
     height: 256px;
 }
+.player p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+/* tabel  */
+article{
+    margin-top: 1550px;
+    margin-bottom: 0;
+    margin-left: 717px;
+    margin-right: 156px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+
+}
+tr, td{
+    border: 2px solid black;
+    padding: 10px;
+}
+table, h2{
+    color: tomato;
+}
+
+
+
+
 /*------------------- 
 top player styles 
 -------------------- */
-
-    
-
+.lirst-part{
+    margin-top: 50px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 63px;
+}
+.logo img{
+    position: static;
+width: 483.87px;
+height: 110px;
+margin: 20px 0px;
+padding-top: 158px;
+}
+.icon{
+    position: static;
+left: 81.18%;
+}
+.icon a{
+    flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+}
+footer{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* tha end  */
